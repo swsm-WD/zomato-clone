@@ -34,6 +34,7 @@ function Login(props) {
                       success(credentialResponse);
                     }}
                     onError={() => {
+                      console.log(error.message);
                       error();
                     }}
                   />
