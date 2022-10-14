@@ -290,7 +290,7 @@ function Restaurant(props) {
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="Enter full Name"
-                  value=""
+                  value="ShrutiMalviya"
                   ref={userNameRef}
                   onChange={onChangeHandler}
                 />
@@ -307,7 +307,7 @@ function Restaurant(props) {
                   className="form-control"
                   id="exampleFormControlInput1"
                   placeholder="name@example.com"
-                  value=""
+                  value="shruti@gmail.com"
                   ref={emailRef}
                   onChange={onChangeHandler}
                 />
@@ -323,7 +323,7 @@ function Restaurant(props) {
                   className="form-control"
                   id="exampleFormControlTextarea1"
                   rows="3"
-                  value=""
+                  value="Itarsi(M.P.)"
                   ref={addressRef}
                   onChange={onChangeHandler}
                 ></textarea>
